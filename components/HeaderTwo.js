@@ -1,9 +1,14 @@
 import Link from "next/link";
 import React from "react";
+import { Offcanvas } from "react-bootstrap";
+import Popup from "./Popup";
 import logo from "../public/images/Logo.png";
 
-const Header = () => {
-  const [menuItems, setMenuItems] = React.useState([
+const HeaderTwo = () => {
+  const [show, setShow] = React.useState(false);
+  const closeMenu = () => setShow(false);
+  const openMenu = () => setShow(true);
+  const [menuItems] = React.useState([
     { title: "Home", route: "/" },
     {
       title: "Services",
@@ -201,87 +206,55 @@ const Header = () => {
     { title: "Let's Talk", route: "/contact" },
   ]);
   return (
-    <nav className="navbar navbar-dark flex-nowrap position-absolute top-0 w-100">
+    <nav className="navbar navbar-dark">
       <div className="container-fluid px-3 px-lg-5">
-        <Link className="navbar-brand align-self-baseline" href="/">
-          <img src={logo.src} alt="Bleeding Edge" />
+        <Link className="navbar-brand" href="/">
+          <img src={logo.src} alt="Cross Jump Studio" height={70} />
         </Link>
-        <div className="d-flex flex-column align-items-end border-gradient">
-          {menuItems.map((item, i) =>
-            item.subItems ? (
-              <>
-                <div className="menu-item mb-1">
-                  <div className="menu-label text-end pe-2">
-                    <Link
-                   
-                      href={item.route}
-                      className="dropdown-toggle text-decoration-none"
-                    >
-                      {item.title}
-                    </Link>
-                    <ul className="row list-unstyled p-3 rounded-3 border border-primary-light border-2 bg-black text-start">
-                      <li>
-                        <h5>
-                          <Link
-                         
-                            href={item.route}
-                            className="text-decoration-none"
-                          >
-                            {item.title}
-                          </Link>
-                        </h5>
-                      </li>
-                      {item.subItems.map((si, itemIndex) => (
-                        <li key={itemIndex} className={"col-12 col-lg-4 pt-3"}>
-                          <Link
-                          
-                            href={si.route}
-                            className={`text-decoration-none ${
-                              si.children ? "fw-bold" : "link-light"
-                            }`}
-                          >
-                            {si.title}
-                          </Link>
-
-                          {si.children && (
-                            <ul className="list-unstyled">
-                              {si.children.map((child, siIndex) => (
-                                <li key={siIndex} className="ps-2">
-                                  <Link
-                                 
-                                    href={child.route}
-                                    className="text-decoration-none link-light"
-                                  >
-                                    {child.title}
-                                  </Link>
-                                </li>
-                              ))}
-                              <hr className="d-lg-none" />
-                            </ul>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="menu-line" />
-                </div>
-              </>
-            ) : (
-              <Link
-                key={i}
-                href={item.route}
-           
-                className="menu-item text-decoration-none mb-1"
-              >
-                <span className="menu-label pe-2">{item.title}</span>
-                <div className="menu-line" />
-              </Link>
-            )
-          )}
-        </div>
+        <button
+          variant="primary"
+          onClick={openMenu}
+          className="navbar-toggler border-primary shadow-primary rounded-circle border-2 p-2"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
       </div>
+
+      <Offcanvas
+        show={show}
+        onHide={closeMenu}
+        placement="end"
+        className="text-bg-dark bg-black"
+      >
+        <Offcanvas.Header closeButton closeVariant="white" className="px-4">
+          <Offcanvas.Title>Menu</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body className="px-0">
+          <ul className="nav flex-column">
+            {menuItems.map((item, i) => (
+              <li
+                className="nav-item border-bottom border-dark"
+                data-bs-dismiss="offcanvas"
+                key={i}
+              >
+                {item.subItems ? (
+                  <Popup item={item} key={i} index={i} closeMenu={closeMenu} />
+                ) : (
+                  <Link
+                    className="nav-link fs-4"
+                    href={item.route}
+                    onClick={closeMenu}
+                  >
+                    {item.title}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </Offcanvas.Body>
+      </Offcanvas>
     </nav>
   );
 };
 
-export default Header;
+export default HeaderTwo;
