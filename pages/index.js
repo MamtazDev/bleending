@@ -5,6 +5,9 @@ import styles from "@/styles/Home.module.css";
 import HeaderTwo from "@/components/HeaderTwo";
 import HomeHero from "@/components/Home/HomeHero";
 import OurService from "@/components/Home/OurService";
+import BestWork from "@/components/Home/BestWork";
+import OurProcess from "@/components/Home/OurProcess";
+import WhyUs from "@/components/Home/WhyUs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +20,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="bg-black text-light">
         <HeaderTwo />
         <HomeHero/>
         <OurService/>
+        <BestWork/>
+        <OurProcess/>
+        <WhyUs/>
       </main>
     </>
   );
