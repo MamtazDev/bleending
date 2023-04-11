@@ -15,6 +15,7 @@ const ContactForm = ({ compact }) => {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [reCaptchaToken, setReCaptchaToken] = useState();
 
+  
   // Create an event handler so you can call the verification on button click event or form submit
   const handleReCaptchaVerify = useCallback(async () => {
     if (!executeRecaptcha) {
