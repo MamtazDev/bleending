@@ -8,6 +8,8 @@ import OurService from "@/components/Home/OurService";
 import BestWork from "@/components/Home/BestWork";
 import OurProcess from "@/components/Home/OurProcess";
 import WhyUs from "@/components/Home/WhyUs";
+import Testimonial from "@/components/Home/Testimonial";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +29,8 @@ export default function Home() {
         <BestWork/>
         <OurProcess/>
         <WhyUs/>
+        <Testimonial/>
+        <Footer/>
       </main>
     </>
   );
