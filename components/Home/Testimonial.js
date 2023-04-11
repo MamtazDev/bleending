@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
-// import flickityInit from "../flickityInit";
+import flickityInit from "../../utils/flickityInit";
 import MaleAvatar from "../../public/images/male.png";
 import FemaleAvatar from "../../public/images/female.png";
 import Quote from "../../public/images/Quote.svg";
 
 const Testimonial = () => {
-  // useEffect(() => {
-  //   flickityInit("review-carousel", {
-  //     freeScroll: false,
-  //     prevNextButtons: true,
-  //     adaptiveHeight: true,
-  //   });
-  // });
+  useEffect(() => {
+    flickityInit("review-carousel", {
+      freeScroll: false,
+      prevNextButtons: true,
+      adaptiveHeight: true,
+    });
+  });
   const reviews = [
     {
       image: FemaleAvatar,
@@ -86,23 +86,27 @@ const Testimonial = () => {
   return (
     <section className="container">
       <h2 className="text-center">
-        What our <span className="border-3 border-primary border-bottom">clients</span> say
+        What our{" "}
+        <span className="border-3 border-primary border-bottom">clients</span>{" "}
+        say
       </h2>
       <p className="fs-5 my-4 text-center">
-        We are very fortunate to have formed excellent partnerships with many of our clients. And we’ve developed more
-        than just professional relationships with them. Here is what they are saying about us.
+        We are very fortunate to have formed excellent partnerships with many of
+        our clients. And we’ve developed more than just professional
+        relationships with them. Here is what they are saying about us.
       </p>
       <div className="rounded-testimonial py-5 px-3 px-lg-5 border border-2 border-primary-light d-flex flex-column bg-primary-4">
         <h3 className="text-center mb-4">Our community with User reviews</h3>
         <div id="review-carousel">
           {reviews.map((r, index) => (
-            <div    key={index} className="carousel-cell">
-              <div
-                className="rounded-testimonial p-2 p-lg-5 col-11 col-lg-10 border border-2 border-primary-light mx-auto mb-5 bg-primary-10"
-             
-              >
+            <div key={index} className="carousel-cell">
+              <div className="rounded-testimonial p-2 p-lg-5 col-11 col-lg-10 border border-2 border-primary-light mx-auto mb-5 bg-primary-10">
                 <div className="container d-flex flex-column flex-lg-row align-items-center gap-5">
-                  <img src={r.image.src} height="150" className="border border-4 border-primary rounded-circle" />
+                  <img
+                    src={r.image.src}
+                    height="150"
+                    className="border border-4 border-primary rounded-circle"
+                  />
                   <div className="ms-auto col-12 col-lg-8 position-relative">
                     <img
                       src={Quote.src}
