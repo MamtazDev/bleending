@@ -9,11 +9,10 @@ import BestWork from "@/components/Home/BestWork";
 import OurProcess from "@/components/Home/OurProcess";
 import WhyUs from "@/components/Home/WhyUs";
 import Testimonial from "@/components/Home/Testimonial";
-import Footer from "@/components/Footer";
 import Technologies from "@/components/Home/Technologies";
 import Brands from "@/components/Home/Brands";
-import ContactForm from "@/components/ContactForm";
-import FAQ from "@/components/FAQ";
+import ContactForm from "@/components/Home/ContactForm";
+import FAQ from "@/components/Home/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 

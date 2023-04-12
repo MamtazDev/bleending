@@ -40,7 +40,7 @@ const CareerFewThings = () => {
         {things.map((t) => (
           <div className="col-12 col-md-6 col-lg-3 px-4">
             <img
-              src={t.icon}
+              src={t.icon?.src}
               height="150"
               style={{ marginBottom: "-20px", marginLeft: "-15px" }}
             />

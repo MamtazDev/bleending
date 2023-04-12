@@ -30,7 +30,7 @@ const CareerGlobal = () => {
         {industries.map((f) => (
           <div className="col-6 col-20 px-3 mb-3">
             <div className="border border-dark rounded glass p-3">
-              <img src={f.icon} height="120" style={{ margin: "-20px" }} />
+              <img src={f.icon?.src} height="120" style={{ margin: "-20px" }} />
               <h5 className="m-0">{f.count}</h5>
               <h5 className="m-0">{f.title}</h5>
             </div>

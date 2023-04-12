@@ -2,6 +2,7 @@ import React from "react";
 import CareerHeroImage from "../../public/images/career/CareerHero.png";
 
 const CareerHero = () => {
+  console.log(CareerHeroImage, "careeer");
   return (
     <section className="px-3 px-lg-5">
       <div className="row align-items-center">
@@ -24,7 +25,7 @@ const CareerHero = () => {
           </a>
         </div>
         <div className="col-12 col-lg-5 order-1 order-lg-2">
-          <img src={CareerHeroImage} className="w-100 mt-5" />
+          <img src={CareerHeroImage?.src} className="w-100 mt-5" />
         </div>
       </div>
     </section>
