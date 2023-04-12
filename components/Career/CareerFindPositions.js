@@ -31,8 +31,8 @@ const CareerFindPositions = () => {
         </div>
       </div>
       <div className="row">
-        {positions.map((p) => (
-          <div className="col-12 col-lg-6 mb-3">
+        {positions.map((p,index) => (
+          <div key={index} className="col-12 col-lg-6 mb-3">
             <div className="rounded border border-dark glass p-3 d-flex align-items-center justify-content-between position-relative">
               <div>
                 <h5>{p.title}</h5>
