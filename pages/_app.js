@@ -3,12 +3,12 @@ import "@/styles/globals.css";
 import Layout from "./Layout";
 import Head from "next/head";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+// import "../styles/global.css";
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-     
         <link
           rel="stylesheet"
           href="https://unpkg.com/flickity@2/dist/flickity.min.css"

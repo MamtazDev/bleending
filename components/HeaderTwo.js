@@ -1,14 +1,16 @@
 import Link from "next/link";
-import React from "react";
-import { Offcanvas } from "react-bootstrap";
-import Popup from "./Popup";
+import React, { useState } from "react";
 import logo from "../public/images/Logo.png";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import OffcanvasHeader from "react-bootstrap/OffcanvasHeader";
+import OffcanvasTitle from "react-bootstrap/OffcanvasTitle";
+import OffcanvasBody from "react-bootstrap/OffcanvasBody";
 
 const HeaderTwo = () => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = useState(false);
   const closeMenu = () => setShow(false);
   const openMenu = () => setShow(true);
-  const [menuItems] = React.useState([
+  const [menuItems] = useState([
     { title: "Home", route: "/" },
     {
       title: "Services",
@@ -205,6 +207,92 @@ const HeaderTwo = () => {
     { title: "Career", route: "/career" },
     { title: "Let's Talk", route: "/contact" },
   ]);
+
+  function Popup({ item, index }) {
+    return (
+      <>
+        <a
+          href="#"
+          className="nav-link fs-4"
+          data-bs-toggle="modal"
+          data-bs-target={`#modal${index}`}
+          onClick={closeMenu}
+        >
+          {item.title} {"->"}
+        </a>
+        <div
+          className="modal fade"
+          id={`modal${index}`}
+          tabIndex="-1"
+          aria-labelledby={`modalLabel${index}`}
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-lg">
+            <div className="modal-content border border-primary-light border-2 bg-black text-start">
+              <div className="modal-header border-0">
+                <h1
+                  className="modal-title fs-5 text-light"
+                  id={`modalLabel${index}`}
+                >
+                  <Link
+                    className="nav-link fs-4"
+                    href={item.route}
+                    onClick={closeMenu}
+                  >
+                    {item.title}
+                  </Link>
+                </h1>
+                <button
+                  type="button"
+                  className="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body">
+                <ul className="row list-unstyled">
+                  {item.subItems.map((si, i2) => (
+                    <li
+                      className={"col-12 col-lg-4 pt-3"}
+                      key={`${index}${i2}`}
+                    >
+                      <Link
+                        href={si.route}
+                        key={`${index}${i2}`}
+                        className={`text-decoration-none ${
+                          si.children ? "fw-bold" : "link-light"
+                        }`}
+                      >
+                        {si.title}
+                      </Link>
+
+                      {si.children && (
+                        <ul className="list-unstyled p-3">
+                          {si.children.map((child, i3) => (
+                            <li className="ps-2">
+                              <Link
+                                href={child.route}
+                                className="text-decoration-none link-light"
+                                key={`${index}${i2}${i3}`}
+                              >
+                                {child.title}
+                              </Link>
+                            </li>
+                          ))}
+                          <hr className="d-lg-none" />
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+
   return (
     <nav className="bg-black text-light navbar navbar-dark">
       <div className="container-fluid px-3 px-lg-5">
@@ -226,10 +314,10 @@ const HeaderTwo = () => {
         placement="end"
         className="text-bg-dark bg-black"
       >
-        <Offcanvas.Header closeButton closeVariant="white" className="px-4">
-          <Offcanvas.Title>Menu</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body className="px-0">
+        <OffcanvasHeader closeButton closeVariant="white" className="px-4">
+          <OffcanvasTitle>Menu</OffcanvasTitle>
+        </OffcanvasHeader>
+        <OffcanvasBody className="px-0">
           <ul className="nav flex-column">
             {menuItems.map((item, i) => (
               <li
@@ -251,7 +339,7 @@ const HeaderTwo = () => {
               </li>
             ))}
           </ul>
-        </Offcanvas.Body>
+        </OffcanvasBody>
       </Offcanvas>
     </nav>
   );
