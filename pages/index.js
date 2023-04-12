@@ -23,14 +23,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-black text-light">
-        <HeaderTwo />
-        <HomeHero/>
-        <OurService/>
-        <BestWork/>
-        <OurProcess/>
-        <WhyUs/>
-        <Testimonial/>
-        <Footer/>
+        {/* <HeaderTwo /> */}
+        <HomeHero />
+        <OurService />
+        <BestWork />
+        <OurProcess />
+        <WhyUs />
+        <Testimonial />
+        {/* <Footer/> */}
       </main>
     </>
   );
