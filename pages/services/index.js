@@ -6,11 +6,13 @@ import ServiceHero from "@/components/Services/ServiceHero";
 import ServiceLatestGames from "@/components/Services/ServiceLatestGames";
 import ServiceTabs from "@/components/Services/ServiceTabs";
 import ServiceWhyUs from "@/components/Services/ServiceWhyUs";
+import Meta from "@/utils/Meta";
 import React from "react";
 
 const services = () => {
   return (
-    <div>
+    <>
+      <Meta title={"Services by Bleeding Edge"} />
       <ServiceHero />
       <ServiceAward />
       <ServiceTabs />
@@ -19,7 +21,7 @@ const services = () => {
       <Brands />
       <ContactForm />
       <FAQ />
-    </div>
+    </>
   );
 };
 

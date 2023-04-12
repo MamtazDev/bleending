@@ -8,7 +8,6 @@ import Youtube from "../public/images/social/youtube.svg";
 import Link from "next/link";
 
 const Footer = () => {
-  
   return (
     <footer className="mt-5 pt-5 border-3 border-dark border-top">
       <div className="px-3 px-lg-5">
@@ -16,25 +15,47 @@ const Footer = () => {
           <div className="col-12 col-lg-3 mb-5 mb-lg-0">
             <img src={Logo.src} alt="Bleeding Edge" />
             <p className="small">
-              Bleeding Edge has years of experience in mobile game development, providing quality solutions at
-              affordable prices without compromising quality. We are a leading game development company that provides
-              its clients with flexible game solutions that consistently exceed expectations. If you are hoping for a
-              job well done, let us know!
+              Bleeding Edge has years of experience in mobile game development,
+              providing quality solutions at affordable prices without
+              compromising quality. We are a leading game development company
+              that provides its clients with flexible game solutions that
+              consistently exceed expectations. If you are hoping for a job well
+              done, let us know!
             </p>
             <div className="d-flex align-items-center gap-3 gap-lg-4">
-              <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/bleedingedgestudio/">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.facebook.com/bleedingedgestudio/"
+              >
                 <img src={Fb.src} />
               </a>
-              <a target={"_blank"} rel="noreferrer" href="https://twitter.com/Bleeding_edge1">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://twitter.com/Bleeding_edge1"
+              >
                 <img src={Twitter.src} />
               </a>
-              <a target={"_blank"} rel="noreferrer" href="https://www.linkedin.com/company/bleedingedgestudio/">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/bleedingedgestudio/"
+              >
                 <img src={Linkedin.src} />
               </a>
-              <a target={"_blank"} rel="noreferrer" href="https://www.youtube.com/channel/UCb-d-csAruXkKUy9h2oWA2g">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.youtube.com/channel/UCb-d-csAruXkKUy9h2oWA2g"
+              >
                 <img src={Youtube.src} />
               </a>
-              <a target={"_blank"} rel="noreferrer" href="https://www.tiktok.com/@bleedingedge_shorts">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.tiktok.com/@bleedingedge_shorts"
+              >
                 <img src={Tiktok.src} />
               </a>
             </div>
@@ -43,27 +64,42 @@ const Footer = () => {
             <h6 className="text-primary ps-3">Services</h6>
             <ul class="nav flex-column ">
               <li class="nav-item">
-                <Link class="nav-link link-light" href="services/mobile-game-development">
+                <Link
+                  class="nav-link link-light"
+                  href="/services/mobile-game-development"
+                >
                   Mobile Game Development
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="services/nft-game-development">
+                <Link
+                  class="nav-link  link-light"
+                  href="/services/nft-game-development"
+                >
                   NFT Game Development
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="services/desktop-game-development">
+                <Link
+                  class="nav-link  link-light"
+                  href="/services/desktop-game-development"
+                >
                   Desktop Game Development
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="services/web3-game-development">
+                <Link
+                  class="nav-link  link-light"
+                  href="/services/web3-game-development"
+                >
                   Web3 Game Development
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="services/metaverse-game-development">
+                <Link
+                  class="nav-link  link-light"
+                  href="/services/metaverse-game-development"
+                >
                   Metaverse Game Development
                 </Link>
               </li>
@@ -78,27 +114,27 @@ const Footer = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="work">
+                <Link class="nav-link  link-light" href="/work">
                   Our Work
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="process">
+                <Link class="nav-link  link-light" href="/process">
                   Our Process
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="infrastructure">
+                <Link class="nav-link  link-light" href="/infrastructure">
                   Key Infrastructure
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="engagement">
+                <Link class="nav-link  link-light" href="/engagement">
                   Engagement Model
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link  link-light" href="privacy-policy">
+                <Link class="nav-link  link-light" href="/privacy-policy">
                   Privacy Policy
                 </Link>
               </li>
@@ -108,16 +144,20 @@ const Footer = () => {
             <h6 className="text-primary ps-3">Our Location</h6>
             <ul class="nav flex-column ">
               <li class="nav-item">
-                <a class="nav-link link-light">Office # 79, Yas Creative Hub, Yas South, Abu Dhabi, UAE</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link link-light">
-                  Office # 25 , One Business Center , OneJLT , Jumeriah Lake Towers , Dubai , UAE
+                  Office # 79, Yas Creative Hub, Yas South, Abu Dhabi, UAE
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link link-light">
-                  Villa # 1 , Street 1 - Cavalry Ground , Lahore Cantt Lahore , Pakistan
+                  Office # 25 , One Business Center , OneJLT , Jumeriah Lake
+                  Towers , Dubai , UAE
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light">
+                  Villa # 1 , Street 1 - Cavalry Ground , Lahore Cantt Lahore ,
+                  Pakistan
                 </a>
               </li>
             </ul>
@@ -136,7 +176,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center border-3 border-dark border-top mt-5 p-3 mb-0">
-        © All rights reserved. <span className="text-primary">Bleeding Edge</span>{" "}
+        © All rights reserved.{" "}
+        <span className="text-primary">Bleeding Edge</span>{" "}
         <Link href="/privacy-policy">Privacy Policy</Link>
       </p>
     </footer>

@@ -1,12 +1,14 @@
-import PrivacyPolicy from '@/components/PrivacyPolicy/PrivacyPolicy';
-import React from 'react';
+import PrivacyPolicy from "@/components/PrivacyPolicy/PrivacyPolicy";
+import Meta from "@/utils/Meta";
+import React from "react";
 
 const privacyPolicy = () => {
-    return (
-        <div>
-            <PrivacyPolicy/>
-        </div>
-    );
+  return (
+    <>
+      <Meta title={"Privacy Policy"} />
+      <PrivacyPolicy />
+    </>
+  );
 };
 
 export default privacyPolicy;

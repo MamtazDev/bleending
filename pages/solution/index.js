@@ -10,11 +10,13 @@ import SolutionHero from "@/components/Solution/SolutionHero";
 import SolutionSteps from "@/components/Solution/SolutionSteps";
 import SolutionWorking from "@/components/Solution/SolutionWorking";
 import SolutionWhyUs from "@/components/Solution/WhyUs";
+import Meta from "@/utils/Meta";
 import React from "react";
 
 const index = () => {
   return (
-    <div>
+    <>
+      <Meta title={"Solution - Bleeding Edge"} />
       <SolutionHero />
       <SolutionAnim />
       <SolutionSteps />
@@ -27,7 +29,7 @@ const index = () => {
       <Brands />
       <ContactForm />
       <FAQ />
-    </div>
+    </>
   );
 };
 

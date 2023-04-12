@@ -6,11 +6,13 @@ import CareerWhoWeAre from "@/components/Career/CareerWhoWeAre";
 import CareerWhyUs from "@/components/Career/CareerWhyUs";
 import ContactForm from "@/components/Home/ContactForm";
 import FAQ from "@/components/Home/FAQ";
+import Meta from "@/utils/Meta";
 import React from "react";
 
 const CareerPage = () => {
   return (
-    <section className="bg-black text-light">
+    <>
+      <Meta title={"Career - Bleeding Edge"} />
       <CareerHero />
       <CareerFewThings />
       <CareerFindPositions />
@@ -19,7 +21,7 @@ const CareerPage = () => {
       <CareerGlobal />
       <ContactForm />
       <FAQ />
-    </section>
+    </>
   );
 };
 
