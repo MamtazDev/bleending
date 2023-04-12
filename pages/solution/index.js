@@ -12,7 +12,7 @@ import SolutionWorking from "@/components/Solution/SolutionWorking";
 import SolutionWhyUs from "@/components/Solution/WhyUs";
 import React from "react";
 
-const solution = () => {
+const index = () => {
   return (
     <div>
       <SolutionHero />
@@ -31,4 +31,4 @@ const solution = () => {
   );
 };
 
-export default solution;
+export default index;

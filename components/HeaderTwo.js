@@ -273,7 +273,7 @@ const HeaderTwo = () => {
                       {si.children && (
                         <ul className="list-unstyled p-3">
                           {si.children.map((child, i3) => (
-                            <li className="ps-2">
+                            <li key={i3} className="ps-2">
                               <Link
                                 href={child.route}
                                 className="text-decoration-none link-light"
