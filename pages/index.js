@@ -10,6 +10,8 @@ import OurProcess from "@/components/Home/OurProcess";
 import WhyUs from "@/components/Home/WhyUs";
 import Testimonial from "@/components/Home/Testimonial";
 import Footer from "@/components/Footer";
+import Technologies from "@/components/Home/Technologies";
+import Brands from "@/components/Home/Brands";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,14 +25,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-black text-light">
-        {/* <HeaderTwo /> */}
         <HomeHero />
         <OurService />
         <BestWork />
         <OurProcess />
         <WhyUs />
+        <Technologies/>
         <Testimonial />
-        {/* <Footer/> */}
+        <Brands/>
       </main>
     </>
   );

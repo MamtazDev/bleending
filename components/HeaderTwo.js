@@ -206,7 +206,7 @@ const HeaderTwo = () => {
     { title: "Let's Talk", route: "/contact" },
   ]);
   return (
-    <nav className="navbar navbar-dark">
+    <nav className="bg-black text-light navbar navbar-dark">
       <div className="container-fluid px-3 px-lg-5">
         <Link className="navbar-brand" href="/">
           <img src={logo.src} alt="Cross Jump Studio" height={70} />

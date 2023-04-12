@@ -5,12 +5,12 @@ import React from "react";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="bg-black text-light">
       {/* <Header /> */}
       <HeaderTwo />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 
