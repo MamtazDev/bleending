@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./Layout";
 import Head from "next/head";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -19,9 +20,11 @@ export default function App({ Component, pageProps }) {
         />
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" />
       </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <GoogleReCaptchaProvider reCaptchaKey="6LfcoKYiAAAAAPhpVWQI-_XGbkkLYLUDCnn95Dqz">
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </GoogleReCaptchaProvider>
     </>
   );
 }
