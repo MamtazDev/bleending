@@ -53,12 +53,14 @@ const ServiceWhyUs = ({ title }) => {
           <div key={i} className="d-flex mb-3">
             <div
               className={`col-11 p-3 border ${
-                i % 2 ? "bg-blue border-blue" : "bg-primary-10 border-primary-light ms-auto"
+                i % 2
+                  ? "bg-blue border-blue"
+                  : "bg-primary-10 border-primary-light ms-auto"
               } rounded-5`}
             >
               <div className={`${i % 2 ? "text-start" : "text-end"}`}>
                 <h1 className="display-1">
-                  0{i + 1} <img src={r.icon} height="50rem" />
+                  0{i + 1} <img src={r.icon.src} height="50rem" />
                 </h1>
                 <h5>{r.title}</h5>
                 <p className="m-0">{r.desc}</p>
@@ -97,7 +99,7 @@ const ServiceWhyUs = ({ title }) => {
                   <p className="m-0">{r.desc}</p>
                 </div>
                 <div className="col text-center">
-                  <img src={r.icon} height="70rem" />
+                  <img src={r.icon.src} height="70rem" />
                 </div>
               </div>
             </div>
