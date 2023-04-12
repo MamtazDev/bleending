@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="stylesheet" href="/flickity/flickity.min.css" />
-        <script src="/flickity/flickity.pkgd.min.js" />
+        <script src="/flickity/flickity.pkgd.min.js" defer />
       </Head>
       <GoogleReCaptchaProvider reCaptchaKey="6LfcoKYiAAAAAPhpVWQI-_XGbkkLYLUDCnn95Dqz">
         <Layout>
