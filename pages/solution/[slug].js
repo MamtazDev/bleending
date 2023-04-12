@@ -16,7 +16,7 @@ import solutions from '@/utils/solutions';
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const solutionItem = () => {
+const SolutionItem = () => {
     const router = useRouter();
     const {slug}=router.query;
     const content = solutions[slug];
@@ -38,4 +38,4 @@ const solutionItem = () => {
     );
 };
 
-export default solutionItem;
+export default SolutionItem;
