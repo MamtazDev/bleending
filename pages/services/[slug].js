@@ -9,14 +9,17 @@ import ContactForm from "@/components/Home/ContactForm";
 import FAQ from "@/components/Home/FAQ";
 import faqs from "../../utils/faqs-service";
 import ServiceDescription from "@/components/Services/ServiceDescription";
+import Meta from "@/utils/Meta";
 
 const ServicesItems = () => {
   const router = useRouter();
   const { slug } = router.query;
 
   const content = services[slug];
+
   return (
     <>
+      <Meta title={content?.title} />
       <ServiceHero title={content?.title} />
       <ServiceDescription contents={content?.content} />
       <ServiceWhyUs title={content?.title} />

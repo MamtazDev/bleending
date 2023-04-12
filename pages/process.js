@@ -5,11 +5,13 @@ import Testimonial from "@/components/Home/Testimonial";
 import ProcessHero from "@/components/Process/ProcessHero";
 import ProcessSteps from "@/components/Process/ProcessSteps";
 import ProcessTechnology from "@/components/Process/ProcessTechnology";
+import Meta from "@/utils/Meta";
 import React from "react";
 
 const process = () => {
   return (
-    <div>
+    <>
+      <Meta title={"Our Process - Bleeding Edge"} />
       <ProcessHero />
       <ProcessTechnology />
       <ProcessSteps />
@@ -17,7 +19,7 @@ const process = () => {
       <Brands />
       <ContactForm />
       <FAQ />
-    </div>
+    </>
   );
 };
 
