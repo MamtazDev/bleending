@@ -149,7 +149,7 @@ const OurService = () => {
       ],
     },
   ];
-  console.log("services", services);
+
   return (
     <section className="container text-center mt-5 pt-5">
       <h2>

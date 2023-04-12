@@ -11,6 +11,7 @@ import {
 
 const formAction = 'contactForm';
 console.log("formAction: ", formAction)
+
 const ContactForm = ({ compact }) => {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [reCaptchaToken, setReCaptchaToken] = useState();
@@ -111,7 +112,7 @@ const ContactForm = ({ compact }) => {
             with our service offerings. Brief us of your requirements, and we’ll get started on it right away.
           </p>
           {messageFailed && <div className="alert alert-danger" role="alert">Please fill in all required fields.</div> }
-          {reCaptachFailed && <div className="alert alert-danger" role="alert">We're unable to verify whether you're human. Please reload and try again.</div> }
+          {reCaptachFailed && <div className="alert alert-danger" role="alert">We are unable to verify whether you are human. Please reload and try again.</div> }
           {!messageSent &&
           <form onSubmit={e => {
             handleSubmitForm(e)
@@ -158,7 +159,7 @@ const ContactForm = ({ compact }) => {
         </div>
         <div className="col-12 col-lg-5 order-1 order-lg-2">
           <div className="d-flex justify-content-center justify-content-lg-end align-items-center h-100 mb-4">
-            <img src={ContactUsImage} className="img-fluid w-75" />
+            <img src={ContactUsImage.src} className="img-fluid w-75" />
           </div>
         </div>
       </div>
@@ -168,7 +169,7 @@ const ContactForm = ({ compact }) => {
           <div className="flex-fill rounded-3 gradient-border">
             <div className="d-flex rounded-3">
               <div className="gradient p-3  rounded-start">
-                <img src={Icon1} />
+                <img src={Icon1.src} />
               </div>
               <div className="p-3">
                 <h5>200+</h5>

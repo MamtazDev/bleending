@@ -13,6 +13,7 @@ import Footer from "@/components/Footer";
 import Technologies from "@/components/Home/Technologies";
 import Brands from "@/components/Home/Brands";
 import ContactForm from "@/components/ContactForm";
+import FAQ from "@/components/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function Home() {
         <Testimonial />
         <Brands/>
         <ContactForm/>
+        <FAQ/>
       </main>
     </>
   );
