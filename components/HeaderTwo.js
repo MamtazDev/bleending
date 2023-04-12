@@ -197,6 +197,7 @@ const HeaderTwo = () => {
     },
     {
       title: "Company",
+      
       route: "/about",
       subItems: [
         { title: "About Us", route: "/about" },
