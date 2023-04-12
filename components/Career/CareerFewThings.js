@@ -37,8 +37,8 @@ const CareerFewThings = () => {
         the standard of excellence
       </p>
       <div className="row light" style={{ backgroundSize: "100% 100%" }}>
-        {things.map((t) => (
-          <div className="col-12 col-md-6 col-lg-3 px-4">
+        {things.map((t,index) => (
+          <div key={index} className="col-12 col-md-6 col-lg-3 px-4">
             <img
               src={t.icon?.src}
               height="150"

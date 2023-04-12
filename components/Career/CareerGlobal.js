@@ -27,8 +27,8 @@ const CareerGlobal = () => {
         to work with.
       </p>
       <div className="row justify-content-center mt-5">
-        {industries.map((f) => (
-          <div className="col-6 col-20 px-3 mb-3">
+        {industries.map((f,index) => (
+          <div key={index} className="col-6 col-20 px-3 mb-3">
             <div className="border border-dark rounded glass p-3">
               <img src={f.icon?.src} height="120" style={{ margin: "-20px" }} />
               <h5 className="m-0">{f.count}</h5>
