@@ -14,8 +14,8 @@ const SolutionWorking = () => {
         </div>
         <div className="col-12 col-lg-6">
           <h1 className="display-6 fw-semibold position-relative">
-            We're <span className="text-primary">Working</span> All Over the
-            World
+            We&apos;re <span className="text-primary">Working</span> All Over
+            the World
           </h1>
           <p className="fs-5 position-relative">
             We nourish the needs of our clients with the best team distribution.

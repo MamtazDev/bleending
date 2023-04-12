@@ -13,13 +13,18 @@ const ContactOffice = () => {
       <h2>
         Our <span className="text-primary">Office</span>
       </h2>
-      <p className="fs-5">We currently have 3 Offices worldwide and planning to launch many more.</p>
+      <p className="fs-5">
+        We currently have 3 Offices worldwide and planning to launch many more.
+      </p>
 
       <div className="row">
         <div className="col-12 col-lg-4 p-2">
           <div className="rounded border border-dark glass h-100">
             <div className="p-3 border-bottom border-dark">
-              <img src={OfficeImage3.src} className="w-100 rounded-bottom rounded-4" />
+              <img
+                src={OfficeImage3.src}
+                className="w-100 rounded-bottom rounded-4"
+              />
             </div>
             <div className="p-3">
               <h3>Corporate Office</h3>
@@ -38,14 +43,20 @@ const ContactOffice = () => {
         <div className="col-12 col-lg-4 p-2">
           <div className="rounded border border-dark glass h-100">
             <div className="p-3 border-bottom border-dark">
-              <img src={OfficeImage1.src} className="w-100 rounded-bottom rounded-4" />
+              <img
+                src={OfficeImage1.src}
+                className="w-100 rounded-bottom rounded-4"
+              />
             </div>
             <div className="p-3">
               <h3>Office</h3>
               <h5 className="text-primary">Dubai</h5>
               <div className="d-flex align-items-start gap-2">
                 <img src={Location.src} className="mt-1" />
-                <p>Office # 25 , One Business Center , OneJLT , Jumeriah Lake Towers , Dubai , UAE</p>
+                <p>
+                  Office # 25 , One Business Center , OneJLT , Jumeriah Lake
+                  Towers , Dubai , UAE
+                </p>
               </div>
               <div className="d-flex align-items-start gap-2">
                 <img src={Email.src} className="mt-1" />
@@ -57,14 +68,20 @@ const ContactOffice = () => {
         <div className="col-12 col-lg-4 p-2">
           <div className="rounded border border-dark glass h-100">
             <div className="p-3 border-bottom border-dark">
-              <img src={OfficeImage2.src} className="w-100 rounded-bottom rounded-4" />
+              <img
+                src={OfficeImage2.src}
+                className="w-100 rounded-bottom rounded-4"
+              />
             </div>
             <div className="p-3">
               <h3>Production Studio</h3>
               <h5 className="text-primary">Lahore</h5>
               <div className="d-flex align-items-start gap-2">
                 <img src={Location.src} className="mt-1" />
-                <p>Villa # 1 , Street 1 - Cavalry Ground , Lahore Cantt Lahore , Pakistan</p>
+                <p>
+                  Villa # 1 , Street 1 - Cavalry Ground , Lahore Cantt Lahore ,
+                  Pakistan
+                </p>
               </div>
               <div className="d-flex align-items-start gap-2">
                 <img src={Email.src} className="mt-1" />
@@ -77,14 +94,21 @@ const ContactOffice = () => {
           <div className="rounded border border-dark glass p-4">
             <div className="row align-items-center">
               <div className="col-12 col-lg-6 text-center">
-                <img src={Icon.src} className="w-75" style={{ margin: "-10%" }} />
+                <img
+                  src={Icon.src}
+                  className="w-75"
+                  style={{ margin: "-10%" }}
+                />
               </div>
               <div className="col-12 col-lg-6">
                 <h1>Questions or comments? Get in touch!</h1>
-                <h6 className="text-primary">Questions or comments? Get in touch! We'd love to hear from you!</h6>
+                <h6 className="text-primary">
+                  Questions or comments? Get in touch! We&apos;d love to hear
+                  from you!
+                </h6>
                 <p>
-                  We are ready to discuss the detail of your dream project. And would love to give the answer of your
-                  queries.
+                  We are ready to discuss the detail of your dream project. And
+                  would love to give the answer of your queries.
                 </p>
                 <a href="#top" className="btn btn-primary text-white px-4">
                   Contact Us
