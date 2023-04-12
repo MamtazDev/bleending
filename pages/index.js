@@ -32,11 +32,11 @@ export default function Home() {
         <BestWork />
         <OurProcess />
         <WhyUs />
-        <Technologies/>
+        <Technologies />
         <Testimonial />
-        <Brands/>
-        <ContactForm/>
-        <FAQ/>
+        <Brands />
+        <ContactForm />
+        <FAQ />
       </main>
     </>
   );

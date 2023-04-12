@@ -4,10 +4,12 @@
 fw-semibold {
   font-weight: 600;
 }
+
 .menu-item {
   display: flex;
   align-items: center;
 }
+
 .menu-label {
   font-weight: 600;
   opacity: 0;
