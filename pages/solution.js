@@ -2,6 +2,7 @@ import SolutionAnim from '@/components/Solution/SolutionAnim';
 import SolutionGames from '@/components/Solution/SolutionGames';
 import SolutionHero from '@/components/Solution/SolutionHero';
 import SolutionSteps from '@/components/Solution/SolutionSteps';
+import Technologies from '@/components/Solution/Technologies';
 import React from 'react';
 
 const solution = () => {
@@ -11,6 +12,7 @@ const solution = () => {
             <SolutionAnim/>
             <SolutionSteps/>
             <SolutionGames/>
+            <Technologies/>
         </div>
     );
 };
