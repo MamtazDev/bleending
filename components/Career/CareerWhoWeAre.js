@@ -6,7 +6,7 @@ const CareerWhoWeAre = () => {
     <section className="container mt-5 pt-5">
       <div className="row align-items-center">
         <div className="col-12 col-lg-6 text-center text-lg-end order-lg-2">
-          <img src={WhoWeAreImage} className="w-75" />
+          <img src={WhoWeAreImage?.src} className="w-75" />
         </div>
         <div className="col-12 col-lg-6">
           <h1 className="display-6 fw-semibold">

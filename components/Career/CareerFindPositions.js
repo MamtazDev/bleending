@@ -41,7 +41,7 @@ const CareerFindPositions = () => {
                 </p>
               </div>
               <Link href="/contact" className="stretched-link">
-                <img src={RightIcon} />
+                <img src={RightIcon?.src} />
               </Link>
             </div>
           </div>

@@ -44,7 +44,7 @@ const CareerWhyUs = () => {
       <div className="row p-2 p-lg-4">
         {industries.map((f) => (
           <div className="col-6 col-lg-2 px-3 mb-5">
-            <img src={f.icon} height="150" />
+            <img src={f.icon?.src} height="150" />
             <h5>{f.title}</h5>
           </div>
         ))}
