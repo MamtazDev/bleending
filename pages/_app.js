@@ -19,6 +19,8 @@ export default function App({ Component, pageProps }) {
           href="https://unpkg.com/flickity@2/dist/flickity.min.css"
         />
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" />
+
+        
       </Head>
       <GoogleReCaptchaProvider reCaptchaKey="6LfcoKYiAAAAAPhpVWQI-_XGbkkLYLUDCnn95Dqz">
         <Layout>
