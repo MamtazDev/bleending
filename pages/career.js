@@ -4,8 +4,8 @@ import CareerGlobal from "@/components/Career/CareerGlobal";
 import CareerHero from "@/components/Career/CareerHero";
 import CareerWhoWeAre from "@/components/Career/CareerWhoWeAre";
 import CareerWhyUs from "@/components/Career/CareerWhyUs";
-import ContactForm from "@/components/ContactForm";
-import FAQ from "@/components/FAQ";
+import ContactForm from "@/components/Home/ContactForm";
+import FAQ from "@/components/Home/FAQ";
 import React from "react";
 
 const CareerPage = () => {

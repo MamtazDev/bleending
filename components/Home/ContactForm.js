@@ -180,7 +180,7 @@ const ContactForm = ({ compact }) => {
           <div className="flex-fill rounded-3 gradient-border">
             <div className="d-flex rounded-3">
               <div className="gradient p-3  rounded-start">
-                <img src={Icon2} />
+                <img src={Icon2.src} />
               </div>
               <div className="p-3">
                 <h5>250+</h5>
@@ -191,7 +191,7 @@ const ContactForm = ({ compact }) => {
           <div className="flex-fill rounded-3 gradient-border">
             <div className="d-flex rounded-3">
               <div className="gradient p-3  rounded-start">
-                <img src={Icon3} />
+                <img src={Icon3.src} />
               </div>
               <div className="p-3">
                 <h5>178 %</h5>
@@ -202,7 +202,7 @@ const ContactForm = ({ compact }) => {
           <div className="flex-fill rounded-3 gradient-border">
             <div className="d-flex rounded-3">
               <div className="gradient p-3  rounded-start">
-                <img src={Icon4} />
+                <img src={Icon4.src} />
               </div>
               <div className="p-3">
                 <h5>81 %</h5>
