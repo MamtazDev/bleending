@@ -25,6 +25,8 @@ import s23 from "../public/images/solution/solution head/23 Stock Fantasy App.jp
 const solutions = {
   ["snakes-and-ladder-game-development"]: {
     title: "Snakes and Ladder Game",
+    description:
+    "Play the classic board game of Snakes and Ladders online for free! Climb up ladders and avoid snakes to reach the top. Fun for all ages.",
     image: s1,
     content: [
       {
@@ -36,6 +38,8 @@ const solutions = {
 
   ["hyper-casual-game-development"]: {
     title: "Hyper Casual Game",
+    description:
+    "Looking for a quick and addictive gaming experience? Check out our hyper casual games! These simple yet challenging games are perfect for a quick break or to pass the time. Try them now!",
     image: s2,
     content: [
       {
@@ -47,6 +51,8 @@ const solutions = {
 
   ["carrom-game-development"]: {
     title: "Carrom Game",
+    description:
+    "Looking for a fun indoor game? Check out Carrom! This classic board game is perfect for players of all ages and skill levels. Get ready to hone your strategic thinking and precision shots!",
     image: s3,
     content: [
       {
@@ -58,6 +64,8 @@ const solutions = {
 
   ["real-money-game-development"]: {
     title: "Real Money Game",
+    description:
+    "Play exciting real money games and win big at our online gaming platform. Join now and experience the thrill of our top-rated games! Meta description: Play real money games and win big at our online gaming platform. Join now and experience the thrill of our top-rated games!",
     image: s4,
     content: [
       {
@@ -69,6 +77,8 @@ const solutions = {
 
   ["shooting-game-development"]: {
     title: "Shooting Game",
+    description:
+    "Get ready to aim and fire with our thrilling shooting game! Test your skills and reflexes as you take on challenging levels and enemies. Play now for an adrenaline-pumping experience.",
     image: s5,
     content: [
       {
@@ -80,6 +90,8 @@ const solutions = {
 
   ["tarneeb-game-development"]: {
     title: "Tarneeb Game",
+    description:
+    "Enjoy the popular Middle Eastern trick-taking card game of Tarneeb with friends and family. Learn the rules and strategies for success in this exciting game. Play now online!",
     image: s6,
     content: [
       {
@@ -91,6 +103,8 @@ const solutions = {
 
   ["tower-defense-game-development"]: {
     title: "Tower Defense Game",
+    description:
+    "Get ready to defend your territory with our Tower Defense Game! Strategize and build your defenses to stop the enemy in their tracks. Play now and test your skills!",
     image: s7,
     content: [
       {
@@ -102,6 +116,8 @@ const solutions = {
 
   ["fantasy-sports-app-development"]: {
     title: "Fantasy Sports App ",
+    description:
+    "Play your favorite fantasy sports games on our app. Choose your teams, make trades, and compete against friends. Download now for the ultimate gaming experience",
     image: s8,
     content: [
       {
@@ -113,6 +129,8 @@ const solutions = {
 
   ["ludo-game-development"]: {
     title: "Ludo Game ",
+    description:
+    "Looking for a fun and exciting board game to play with family and friends? Look no further than Ludo Game! Enjoy hours of entertainment with this classic game of strategy and luck. Download now and get rolling!",
     image: s9,
     content: [
       {
@@ -124,6 +142,8 @@ const solutions = {
 
   ["bubble-shooter-game-development"]: {
     title: "Bubble Shooter Game",
+    description:
+    "Enjoy endless fun with Bubble Shooter game! Aim, match and pop colorful bubbles to win levels and beat your high score. Play now for free and indulge in this addictive puzzle game.",
     image: s10,
     content: [
       {
@@ -135,6 +155,8 @@ const solutions = {
 
   ["archery-game-development"]: {
     title: "Archery Game ",
+    description:
+    "Get ready to aim and shoot! Play our exciting Archery Game and experience the thrill of hitting the bullseye. Challenge your skills and compete with friends today.",
     image: s11,
     content: [
       {
@@ -146,6 +168,8 @@ const solutions = {
 
   ["chess-game-development"]: {
     title: "Chess Game",
+    description:
+    "Experience the ultimate strategy game with Chess. Play online or against a computer and improve your skills. Join the millions of players worldwide!",
     image: s12,
     content: [
       {
@@ -157,6 +181,8 @@ const solutions = {
 
   ["rummy-game-development"]: {
     title: "Rummy Game",
+    description:
+    "Enjoy the classic Rummy game online! Play with real players or against the computer. Get the ultimate gaming experience with our user-friendly interface. Join now!",
     image: s13,
     content: [
       {
@@ -168,6 +194,8 @@ const solutions = {
 
   ["hand-game-development"]: {
     title: "Hand Game",
+    description:
+    "Play the popular hand game and challenge your friends! Learn the rules, techniques, and strategies to win. Enjoy endless hours of fun with this classic game.",
     image: s14,
     content: [
       {
@@ -179,6 +207,8 @@ const solutions = {
 
   ["callbreak-card-game-development"]: {
     title: "Callbreak Card Game",
+    description:
+    "Enjoy the popular Callbreak card game online! Play with friends or challenge new opponents. Learn the rules and strategy for this exciting trick-taking game.",
     image: s15,
     content: [
       {
@@ -190,6 +220,8 @@ const solutions = {
 
   ["multi-gaming-app-development"]: {
     title: "Multi gaming app",
+    description:
+    "Looking for a one-stop-shop for all your gaming needs? Check out our multi gaming app! Enjoy a variety of games all in one convenient place. Download now!",
     image: s16,
     content: [
       {
@@ -201,6 +233,8 @@ const solutions = {
 
   ["tic-tac-toe-game-development"]: {
     title: "Tic Tac Toe Game",
+    description:
+    "Play the classic Tic Tac Toe game online for free! Test your strategy skills against the computer or a friend. Enjoy hours of fun with this simple yet addictive game.",
     image: s17,
     content: [
       {
@@ -212,6 +246,8 @@ const solutions = {
 
   ["uno-game-development"]: {
     title: "UNO Game",
+    description:
+    "Get ready to play UNO, the classic card game loved by millions! Enjoy hours of fun with family and friends. Buy now and start playing today.",
     image: s18,
     content: [
       {
@@ -223,6 +259,8 @@ const solutions = {
 
   ["pool-8_ball-game-development"]: {
     title: "8 Ball Pool Game",
+    description:
+    "Play the popular 8 Ball Pool game online and challenge your skills against players worldwide. Enjoy the classic gameplay and win big prizes. Start playing now!",
     image: s19,
     content: [
       {
@@ -234,6 +272,8 @@ const solutions = {
 
   ["car-simulation-game-development"]: {
     title: "Car Simulation Game ",
+    description:
+    "Experience the thrill of driving with our car simulation game. Choose your car, customize it, and hit the road in this exciting virtual adventure. Play now!",
     image: s20,
     content: [
       {
@@ -245,6 +285,8 @@ const solutions = {
 
   ["poker-game-development"]: {
     title: "Poker Game",
+    description:
+    "Enjoy the thrill of the ultimate Poker Game! Join now and experience the excitement of high-stakes betting, skillful strategy, and big wins. Play with friends or join global tournaments.",
     image: s21,
     content: [
       {
@@ -256,6 +298,8 @@ const solutions = {
 
   ["casino-game-development"]: {
     title: "Casino Game",
+    description:
+    "Looking for a thrilling casino game experience? Look no further than our selection of exciting games, featuring everything from classic slots to live dealer tables. Start playing now!",
     image: s22,
     content: [
       {
@@ -267,6 +311,8 @@ const solutions = {
 
   ["stock-fantasy-app-development"]: {
     title: "Stock Fantasy App",
+    description:
+    "Experience the thrill of virtual trading with Stock Fantasy App. Learn, compete and win exciting rewards. Join now and become a pro trader!",
     image: s23,
     content: [
       {

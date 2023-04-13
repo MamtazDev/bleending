@@ -17,13 +17,13 @@ import solutions from "@/utils/solutions";
 import { useRouter } from "next/router";
 import React from "react";
 
-const SolutionItem = () => {
-  const router = useRouter();
-  const { slug } = router.query;
-  const content = solutions[slug];
+export default function SolutionItem({content}) {
+  // const router = useRouter();
+  // const { slug } = router.query;
+  // const content = solutions[slug];
   return (
     <>
-      <Meta title={content?.title} />
+       <Meta title={`${content?.title} Development Company`}  description={content?.description}/>
       <SolutionHero content={content} />
       <SolutionAnim title={content?.title} />
       <SolutionSteps title={content?.title} />
@@ -38,6 +38,17 @@ const SolutionItem = () => {
       <FAQ questions={faqs(content?.title)} />
     </>
   );
+}
+
+export const getServerSideProps = async ({ params }) => {
+  const { slug } = params;
+  const content = solutions[slug];
+
+  return {
+    props: {
+      content,
+    },
+  };
 };
 
-export default SolutionItem;
+// export default SolutionItem;

@@ -309,7 +309,7 @@ const HeaderTwo = () => {
           title: "Tarneeb Game",
           route: "/solution/tarneeb-game-development",
           description:
-            "Enjoy the popular Middle Eastern trick-taking card game of Tarneeb with friends and family. Learn the rules and strategies for success in this exciting game. Play now online!",
+            "Play your favorite fantasy sports games on our app. Choose your teams, make trades, and compete against friends. Download now for the ultimate gaming experience.",
         },
         {
           title: "Hand Game",
