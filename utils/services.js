@@ -1,6 +1,8 @@
 const services = {
   ["learning-and-edutainment"]: {
     title: "Learning And Edutainment",
+    description:
+      "Discover the perfect blend of learning and entertainment with our innovative approach. Experience engaging and educational content like never before.",
     content: [
       {
         type: "p",
@@ -14,6 +16,8 @@ const services = {
   },
   ["mobile-game-development"]: {
     title: "Mobile Game Development",
+    description:
+    "Create engaging mobile games with our expert game development services. From concept to launch, we'll bring your ideas to life. Contact us today",
     content: [
       {
         type: "p",
@@ -28,6 +32,8 @@ const services = {
 
   ["nft-game-development"]: {
     title: "NFT Game Development",
+    description:
+    "Looking to develop an NFT game? Our expert team can help bring your vision to life. Get in touch to learn more about our NFT game development services.",
     content: [
       {
         type: "h",
@@ -70,6 +76,8 @@ const services = {
   },
   ["desktop-game-development"]: {
     title: "Desktop Game Development",
+    description:
+    "Create engaging desktop games with our expert game development services. From concept to launch, we bring your vision to life. Get in touch today.",
     content: [
       {
         type: "p",
@@ -87,6 +95,8 @@ const services = {
   },
   ["web3-game-development"]: {
     title: "Web3 Game Development",
+    description:
+    "Explore the exciting world of Web3 game development and immerse yourself in the future of gaming. Learn about blockchain technology, NFTs, and more. Start creating today!",
     content: [
       {
         type: "p",
@@ -104,6 +114,8 @@ const services = {
   },
   ["metaverse-game-development"]: {
     title: "Metaverse Game Development",
+    description:
+    "Create immersive worlds and unforgettable experiences with our metaverse game development services. Explore the possibilities of the virtual realm today",
     content: [
       {
         type: "p",
@@ -117,6 +129,8 @@ const services = {
   },
   ["unity-game-development"]: {
     title: "Unity Game Development",
+    description:
+    "Create engaging and immersive games with Unity game development. Learn the skills and techniques to bring your ideas to life. Start building today!",
     content: [
       {
         type: "p",
@@ -130,6 +144,8 @@ const services = {
   },
   ["unreal-game-development"]: {
     title: "Unreal Game Development",
+    description:
+    "Looking to develop a game using Unreal Engine? Our comprehensive guide to Unreal Game Development has everything you need to get started. Learn more here.",
     content: [
       {
         type: "p",
@@ -143,6 +159,8 @@ const services = {
   },
   ["html5-web-gl-game-development"]: {
     title: "HTML5/WebGL Game Development",
+    description:
+    "Looking to develop an engaging game using HTML5 and WebGL technology? Explore the possibilities with our expert game development services. Contact us now.",
     content: [
       {
         type: "p",
@@ -164,6 +182,8 @@ const services = {
   },
   ["flutter-development"]: {
     title: "Flutter Development",
+    description:
+    "Looking for the latest updates on Flutter development? Stay ahead of the curve with our expert insights and analysis on Flutter developments.",
     content: [
       {
         type: "p",
@@ -177,6 +197,8 @@ const services = {
   },
   ["post-production"]: {
     title: "Post Production",
+    description:
+    "Looking for high-quality post-production services? Our team can help! We offer expert editing, color grading, and sound design to take your project to the next level. Contact us today.",
     content: [
       {
         type: "p",
@@ -191,6 +213,8 @@ const services = {
 
   ["ui-ux"]: {
     title: "UI/UX",
+    description:
+    "Looking for a great user experience (UX) and intuitive user interface (UI)? Our experts provide top-notch UI/UX design services to boost your website's performance. Contact us now!",
     content: [
       {
         type: "p",
@@ -205,6 +229,8 @@ const services = {
 
   ["asset-production"]: {
     title: "Asset Production",
+    description:
+    "Looking to produce assets for your business? Learn about asset production strategies and techniques to help your brand stand out. Discover more here.",
     content: [
       {
         type: "p",
@@ -219,6 +245,8 @@ const services = {
 
   ["animation"]: {
     title: "Animation",
+    description:
+    "Create captivating visuals and bring your stories to life with animation. Learn about the different types of animation and how they can enhance your brand or project.",
     content: [
       {
         type: "p",
@@ -233,6 +261,8 @@ const services = {
 
   ["blockchain-game-development"]: {
     title: "Blockchain Game Development ",
+    description:
+    "Create immersive and secure gaming experiences with blockchain technology. Discover the benefits of blockchain game development for your next project. Learn more now.",
     content: [
       {
         type: "p",
@@ -247,6 +277,8 @@ const services = {
 
   ["dapps-game-development"]: {
     title: "dApps Game Development",
+    description:
+    "Looking to create a decentralized gaming experience? Explore dApps game development with our expert team. Contact us today to bring your ideas to life.",
     content: [
       {
         type: "p",
@@ -261,6 +293,8 @@ const services = {
 
   ["metaverse-services"]: {
     title: "Metaverse Services",
+    description:
+    "Discover the latest Metaverse services and unlock new possibilities for virtual experiences. Connect with ChatGPT for expert insights and guidance.",
     content: [
       {
         type: "p",
@@ -270,6 +304,8 @@ const services = {
   },
   ["simulation"]: {
     title: "Simulation ",
+    description:
+    "Experience virtual reality with our cutting-edge simulations. Our immersive technology allows you to explore, learn and engage like never before. Discover our simulations today.",
     content: [
       {
         type: "p",
@@ -279,6 +315,8 @@ const services = {
   },
   ["ar-vr-webxr-development"]: {
     title: "AR, VR, WebXR Development",
+    description:
+    "Looking to develop AR, VR, or WebXR applications? Our team can help! Get top-quality development services for immersive technologies today. Contact us to learn more.",
     content: [
       {
         type: "p",
@@ -297,6 +335,8 @@ const services = {
 
   ["gamification-serious-games"]: {
     title: "Gamification & Serious Games",
+    description:
+                "Discover the power of Gamification & Serious Games in engaging and motivating users. Learn how to implement these techniques for business success",
     content: [
       {
         type: "p",
@@ -306,6 +346,8 @@ const services = {
   },
   ["game-design"]: {
     title: "Game Design",
+    description:
+    "Craft immersive game experiences as a professional game designer. Create engaging gameplay mechanics and captivating storylines that keep players hooked. Start your journey today.",
     content: [
       {
         type: "p",
@@ -315,6 +357,8 @@ const services = {
   },
   ["artists-2d"]: {
     title: "2D Artists",
+    description:
+    "Find the best 2D artists for your project. Browse a diverse range of skilled 2D artists and hire the perfect one for your design needs. Contact us today!",
     content: [
       {
         type: "p",
@@ -324,6 +368,8 @@ const services = {
   },
   ["artists-3d"]: {
     title: "3D Artists",
+    description:
+    "Looking for a skilled 3D artist? Look no further! Our team of experts can bring your visions to life with stunning 3D graphics and animations. Contact us today to see what we can create for you.",
     content: [
       {
         type: "p",

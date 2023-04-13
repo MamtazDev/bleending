@@ -16,10 +16,11 @@ const ServicesItems = () => {
   const { slug } = router.query;
 
   const content = services[slug];
-
+console.log(content,"hhhhhh");
   return (
     <>
-      <Meta title={content?.title} />
+      {/* <Meta title={content?.title + " Development Company"}  /> */}
+      <Meta title={`${content?.title} Development Company`}  />
       <ServiceHero title={content?.title} />
       <ServiceDescription contents={content?.content} />
       <ServiceWhyUs title={content?.title} />
