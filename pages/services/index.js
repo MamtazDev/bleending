@@ -12,7 +12,12 @@ import React from "react";
 const services = () => {
   return (
     <>
-      <Meta title={"Services by Bleeding Edge"} />
+      <Meta
+        title={"Services by Bleeding Edge"}
+        description={
+          "With Bleeding Edge Services, you'll gain access to the latest and most innovative solutions available. Our team of experts is dedicated to staying at the forefront of technology to help you achieve your goals."
+        }
+      />
       <ServiceHero />
       <ServiceAward />
       <ServiceTabs />

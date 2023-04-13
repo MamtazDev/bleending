@@ -14,114 +14,168 @@ const HeaderTwo = () => {
     { title: "Home", route: "/" },
     {
       title: "Services",
+      description: "Services",
       route: "/services",
       subItems: [
         {
           title: "Game Development Services",
           route: "#",
+          description: "Game Development Services",
           children: [
             {
               title: "Mobile Game Development",
               route: "/services/mobile-game-development",
+              description: "Mobile Game Development",
             },
             {
               title: "NFT Game Development",
               route: "/services/nft-game-development",
+              description: "NFT Game Development",
             },
             {
               title: "Desktop Game Development",
               route: "/services/desktop-game-development",
+              description: "Desktop Game Development",
             },
             {
               title: "Web3 Game Development",
               route: "/services/web3-game-development",
+              description: "Web3 Game Development",
             },
             {
               title: "Metaverse Game Development",
               route: "/services/metaverse-game-development",
+              description: "Metaverse Game Development",
             },
           ],
         },
         {
           title: "Art, Design & Animation",
+          description: "Art, Design & Animation",
           route: "#",
           children: [
-            { title: "Post-Production", route: "/services/post-production" },
-            { title: "UI/UX", route: "/services/ui-ux" },
-            { title: "Asset Production", route: "/services/asset-production" },
-            { title: "Animation", route: "/services/animation" },
+            {
+              title: "Post-Production",
+              route: "/services/post-production",
+              description: "Post-Production",
+            },
+            {
+              title: "UI/UX",
+              route: "/services/ui-ux",
+              description: "UI/UX",
+            },
+            {
+              title: "Asset Production",
+              route: "/services/asset-production",
+              description: "Asset Production",
+            },
+            {
+              title: "Animation",
+              route: "/services/animation",
+              description: "Animation",
+            },
           ],
         },
 
         {
           title: "Interactive Application",
+          description: "Interactive Application",
           route: "#",
           children: [
             {
               title: "Metaverse Services",
               route: "/services/metaverse-services",
+              description: "Metaverse Services",
             },
-            { title: "Simulations", route: "/services/simulation" },
+            {
+              title: "Simulations",
+              route: "/services/simulation",
+              description: "Simulations",
+            },
             {
               title: "Learning And Edutainment",
               route: "/services/learning-and-edutainment",
+              description: "Learning And Edutainment",
             },
             {
               title: "AR, VR, WebXR Development",
               route: "/services/ar-vr-webxr-development",
+              description: "AR, VR, WebXR Development",
             },
             {
               title: "Gamification & Serious Games",
               route: "/services/gamification-serious-games",
+              description: "Gamification & Serious Games",
             },
           ],
         },
 
         {
           title: "Technology Services",
+          description: "Technology Services",
           route: "#",
           children: [
             {
               title: "Unity3D Game Development",
               route: "/services/unity-game-development",
+              description: "Unity3D Game Development",
             },
             {
               title: "Unreal Game Development",
               route: "/services/unreal-game-development",
+              description: "Unreal Game Development",
             },
             {
               title: "HTML5/WebGL Game Development",
               route: "/services/html5-web-gl-game-development",
+              description: "Unreal Game Development",
             },
             {
               title: "Flutter Developments",
               route: "/services/flutter-development",
+              description: "Unreal Game Development",
             },
           ],
         },
 
         {
           title: "Blockchain Services",
+          description: "Unreal Game Development",
           route: "#",
           children: [
             {
               title: "Blockchain Game Development",
               route: "/services/blockchain-game-development",
+              description: "Unreal Game Development",
             },
             {
               title: "dApps Game Development",
               route: "/services/dapps-game-development",
+              description: "Unreal Game Development",
             },
           ],
         },
 
         {
           title: "Resource Augmentation",
+          description: "Unreal Game Development",
           route: "#",
           children: [
-            { title: "Game Designer", route: "/services/game-design" },
-            { title: "2D Artist", route: "/services/artists-2d" },
-            { title: "3D Artist", route: "/services/artists-3d" },
+            {
+              title: "Game Designer",
+              route: "/services/game-design",
+              description: "Unreal Game Development",
+            },
+            {
+              title: "2D Artist",
+              route: "/services/artists-2d",
+              description: "Unreal Game Development",
+            },
+            {
+              title: "3D Artist",
+              route: "/services/artists-3d",
+              description: "Unreal Game Development",
+            },
           ],
         },
       ],
@@ -129,87 +183,169 @@ const HeaderTwo = () => {
 
     {
       title: "Solution",
+      description: "Unreal Game Development",
       route: "/solution",
       subItems: [
         {
           title: "Snack & Ladder Game",
           route: "/solution/snakes-and-ladder-game-development",
+          description: "Unreal Game Development",
         },
-        { title: "Ludo Game", route: "/solution/ludo-game-development" },
+        {
+          title: "Ludo Game",
+          route: "/solution/ludo-game-development",
+          description: "Unreal Game Development",
+        },
         {
           title: "Tic Tac Toe Game",
           route: "/solution/tic-tac-toe-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Hyper Casual Game",
           route: "/solution/hyper-casual-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Bubble Shooter Game",
           route: "/solution/bubble-shooter-game-development",
+          description: "Unreal Game Development",
         },
-        { title: "UNO Game ", route: "/solution/uno-game-development" },
-        { title: "Carrom Game", route: "/solution/carrom-game-development" },
-        { title: "Archery Game", route: "/solution/archery-game-development" },
+        {
+          title: "UNO Game ",
+          route: "/solution/uno-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Carrom Game",
+          route: "/solution/carrom-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Archery Game",
+          route: "/solution/archery-game-development",
+          description: "Unreal Game Development",
+        },
         {
           title: "8 Ball Pool Game",
           route: "/solution/pool-8_ball-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Real Money Game",
           route: "/solution/real-money-game-development",
+          description: "Unreal Game Development",
         },
-        { title: "Chess Game", route: "/solution/chess-game-development" },
+        {
+          title: "Chess Game",
+          route: "/solution/chess-game-development",
+          description: "Unreal Game Development",
+        },
         {
           title: "Car Simulation Game",
           route: "/solution/car-simulation-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Shooting Game",
           route: "/solution/shooting-game-development",
+          description: "Unreal Game Development",
         },
-        { title: "Rummy Game", route: "/solution/rummy-game-development" },
-        { title: "Poker Game", route: "/solution/poker-game-development" },
-        { title: "Tarneeb Game", route: "/solution/tarneeb-game-development" },
-        { title: "Hand Game", route: "/solution/hand-game-development" },
-        { title: "Casino Game", route: "/solution/casino-game-development" },
+        {
+          title: "Rummy Game",
+          route: "/solution/rummy-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Poker Game",
+          route: "/solution/poker-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Tarneeb Game",
+          route: "/solution/tarneeb-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Hand Game",
+          route: "/solution/hand-game-development",
+          description: "Unreal Game Development",
+        },
+        {
+          title: "Casino Game",
+          route: "/solution/casino-game-development",
+          description: "Unreal Game Development",
+        },
         {
           title: "Tower Defence Game",
           route: "/solution/tower-defense-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Callbreak Card Game",
           route: "/solution/callbreak-card-game-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Stock Fantasy App",
           route: "/solution/stock-fantasy-app-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Fantasy Sports App",
           route: "/solution/fantasy-sports-app-development",
+          description: "Unreal Game Development",
         },
         {
           title: "Multi-gaming App",
           route: "/solution/multi-gaming-app-development",
+          description: "Multi-gaming App",
         },
       ],
     },
     {
       title: "Company",
-      
+      description: "Company",
       route: "/about",
       subItems: [
-        { title: "About Us", route: "/about" },
-        { title: "Our Work", route: "/work" },
-        { title: "Our Process", route: "/process" },
-        { title: "Key Infrastructure", route: "/infrastructure" },
-        { title: "Engagement Model", route: "/engagement" },
+        {
+          title: "About Us",
+          route: "/about",
+          description: "About Us",
+        },
+        {
+          title: "Our Work",
+          route: "/work",
+          description: "Our Work",
+        },
+        {
+          title: "Our Process",
+          route: "/process",
+          description: "Our Process",
+        },
+        {
+          title: "Key Infrastructure",
+          route: "/infrastructure",
+          description: "Key Infrastructure",
+        },
+        {
+          title: "Engagement Model",
+          route: "/engagement",
+          description: "Engagement Model",
+        },
         // { title: "Chess Game", route: "/chessgame" },
       ],
     },
-    { title: "Career", route: "/career" },
-    { title: "Let's Talk", route: "/contact" },
+    {
+      title: "Career",
+      route: "/career",
+      description: "Career",
+    },
+    {
+      title: "Let's Talk",
+      route: "/contact",
+      description: "Let's Talk",
+    },
   ]);
 
   function Popup({ item, index }) {

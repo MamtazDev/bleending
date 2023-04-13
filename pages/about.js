@@ -15,7 +15,12 @@ import React from "react";
 const about = () => {
   return (
     <>
-      <Meta title={"About Us - Bleeding Edge"} />
+      <Meta
+        title={"About Us - Bleeding Edge"}
+        description={
+          "Welcome to Bleeding Edge! Our company is at the forefront of innovation, constantly pushing the boundaries of what's possible in our industry. Learn more about our cutting-edge technology and expert team on our page. Discover how we're staying ahead of the curve and driving progress forward."
+        }
+      />
       <AboutHero />
       <AboutCards />
       <AboutValues />

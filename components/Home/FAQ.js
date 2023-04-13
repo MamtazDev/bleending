@@ -25,12 +25,12 @@ const FAQ = ({ questions }) => {
         questions
       </h1>
 
-      <div class="accordion accordion-flush" id="faq-accordion">
+      <div className="accordion accordion-flush" id="faq-accordion">
         {faqsToShow.map((faq, index) => (
-          <div key={index} class="accordion-item bg-black border-dark">
-            <h2 class="accordion-header" id={`flush-heading${index}`}>
+          <div key={index} className="accordion-item bg-black border-dark">
+            <h2 className="accordion-header" id={`flush-heading${index}`}>
               <button
-                class="accordion-button fs-5 fw-semibold collapsed bg-black"
+                className="accordion-button fs-5 fw-semibold collapsed bg-black"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target={`#flush-collapse${index}`}
@@ -40,10 +40,10 @@ const FAQ = ({ questions }) => {
             </h2>
             <div
               id={`flush-collapse${index}`}
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#faq-accordion"
             >
-              <div class="accordion-body bg-black text-secondary">
+              <div className="accordion-body bg-black text-secondary">
                 <p
                   className="fs-5"
                   dangerouslySetInnerHTML={{ __html: faq.ans }}

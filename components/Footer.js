@@ -62,42 +62,42 @@ const Footer = () => {
           </div>
           <div className="col-6 col-lg-2 mb-5 mb-lg-0">
             <h6 className="text-primary ps-3">Services</h6>
-            <ul class="nav flex-column ">
-              <li class="nav-item">
+            <ul className="nav flex-column ">
+              <li className="nav-item">
                 <Link
-                  class="nav-link link-light"
+                  className="nav-link link-light"
                   href="/services/mobile-game-development"
                 >
                   Mobile Game Development
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
-                  class="nav-link  link-light"
+                  className="nav-link  link-light"
                   href="/services/nft-game-development"
                 >
                   NFT Game Development
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
-                  class="nav-link  link-light"
+                  className="nav-link  link-light"
                   href="/services/desktop-game-development"
                 >
                   Desktop Game Development
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
-                  class="nav-link  link-light"
+                  className="nav-link  link-light"
                   href="/services/web3-game-development"
                 >
                   Web3 Game Development
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
-                  class="nav-link  link-light"
+                  className="nav-link  link-light"
                   href="/services/metaverse-game-development"
                 >
                   Metaverse Game Development
@@ -107,34 +107,42 @@ const Footer = () => {
           </div>
           <div className="col-6 col-lg-2 mb-5 mb-lg-0">
             <h6 className="text-primary ps-3">Company</h6>
-            <ul class="nav flex-column ">
-              <li class="nav-item">
-                <Link class="nav-link link-light" href="/">
+            <ul className="nav flex-column ">
+              <li className="nav-item">
+                <Link className="nav-link link-light" href="/">
                   Abouts us
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link  link-light" href="/work">
+              <li className="nav-item">
+                <Link className="nav-link  link-light" href="/work">
                   Our Work
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link  link-light" href="/process">
+              <li className="nav-item">
+                <Link className="nav-link  link-light" href="/process">
                   Our Process
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link  link-light" href="/infrastructure">
+              <li className="nav-item">
+                <Link
+                  className="nav-link  link-light"
+                  href="https://bleedingedge.studio/blog/"
+                >
+                  Blog
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link  link-light" href="/infrastructure">
                   Key Infrastructure
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link  link-light" href="/engagement">
+              <li className="nav-item">
+                <Link className="nav-link  link-light" href="/engagement">
                   Engagement Model
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link  link-light" href="/privacy-policy">
+              <li className="nav-item">
+                <Link className="nav-link  link-light" href="/privacy-policy">
                   Privacy Policy
                 </Link>
               </li>
@@ -142,20 +150,20 @@ const Footer = () => {
           </div>
           <div className="col-12 col-lg-3 mb-5 mb-lg-0">
             <h6 className="text-primary ps-3">Our Location</h6>
-            <ul class="nav flex-column ">
-              <li class="nav-item">
-                <a class="nav-link link-light">
+            <ul className="nav flex-column ">
+              <li className="nav-item">
+                <a className="nav-link link-light">
                   Office # 79, Yas Creative Hub, Yas South, Abu Dhabi, UAE
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link link-light">
+              <li className="nav-item">
+                <a className="nav-link link-light">
                   Office # 25 , One Business Center , OneJLT , Jumeriah Lake
                   Towers , Dubai , UAE
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link link-light">
+              <li className="nav-item">
+                <a className="nav-link link-light">
                   Villa # 1 , Street 1 - Cavalry Ground , Lahore Cantt Lahore ,
                   Pakistan
                 </a>
@@ -164,12 +172,14 @@ const Footer = () => {
           </div>
           <div className="col-6 col-lg-2">
             <h6 className="text-primary ps-3">Contact Us</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link link-light">contact@bleedingedge .studio</a>
+            <ul className="nav flex-column">
+              <li className="nav-item">
+                <a className="nav-link link-light">
+                  contact@bleedingedge .studio
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link  link-light">+971-543256936</a>
+              <li className="nav-item">
+                <a className="nav-link  link-light">+971-543256936</a>
               </li>
             </ul>
           </div>
