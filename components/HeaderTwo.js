@@ -20,161 +20,161 @@ const HeaderTwo = () => {
         {
           title: "Game Development Services",
           route: "#",
-          description: "Game Development Services",
+          description: "Looking for professional game development services? Look no further! Our team specializes in creating top-quality games for various platforms. Contact us today to learn more.",
           children: [
             {
               title: "Mobile Game Development",
               route: "/services/mobile-game-development",
-              description: "Mobile Game Development",
+              description: "Create engaging mobile games with our expert game development services. From concept to launch, we'll bring your ideas to life. Contact us today",
             },
             {
               title: "NFT Game Development",
               route: "/services/nft-game-development",
-              description: "NFT Game Development",
+              description: "Looking to develop an NFT game? Our expert team can help bring your vision to life. Get in touch to learn more about our NFT game development services.",
             },
             {
               title: "Desktop Game Development",
               route: "/services/desktop-game-development",
-              description: "Desktop Game Development",
+              description: "Create engaging desktop games with our expert game development services. From concept to launch, we bring your vision to life. Get in touch today.",
             },
             {
               title: "Web3 Game Development",
               route: "/services/web3-game-development",
-              description: "Web3 Game Development",
+              description: "Explore the exciting world of Web3 game development and immerse yourself in the future of gaming. Learn about blockchain technology, NFTs, and more. Start creating today!",
             },
             {
               title: "Metaverse Game Development",
               route: "/services/metaverse-game-development",
-              description: "Metaverse Game Development",
+              description: "Create immersive worlds and unforgettable experiences with our metaverse game development services. Explore the possibilities of the virtual realm today",
             },
           ],
         },
         {
           title: "Art, Design & Animation",
-          description: "Art, Design & Animation",
+          description: "Discover the world of Art, Design & Animation with our comprehensive resources. From inspiration to execution, elevate your creativity today.",
           route: "#",
           children: [
             {
               title: "Post-Production",
               route: "/services/post-production",
-              description: "Post-Production",
+              description: "Improve the quality of your film with expert post-production services. We offer comprehensive solutions for editing, color grading, sound design, and more. Contact us today.",
             },
             {
               title: "UI/UX",
               route: "/services/ui-ux",
-              description: "UI/UX",
+              description: "Looking for a great user experience (UX) and intuitive user interface (UI)? Our experts provide top-notch UI/UX design services to boost your website's performance. Contact us now!",
             },
             {
               title: "Asset Production",
               route: "/services/asset-production",
-              description: "Asset Production",
+              description: "Looking to produce assets for your business? Learn about asset production strategies and techniques to help your brand stand out. Discover more here.",
             },
             {
               title: "Animation",
               route: "/services/animation",
-              description: "Animation",
+              description: "Create captivating visuals and bring your stories to life with animation. Learn about the different types of animation and how they can enhance your brand or project.",
             },
           ],
         },
 
         {
           title: "Interactive Application",
-          description: "Interactive Application",
+          description: "Looking for an engaging and dynamic way to interact with your audience? Check out our interactive application! Engage, entertain, and educate with ease. Learn more today.",
           route: "#",
           children: [
             {
               title: "Metaverse Services",
               route: "/services/metaverse-services",
-              description: "Metaverse Services",
+              description: "Discover the latest Metaverse services and unlock new possibilities for virtual experiences. Connect with ChatGPT for expert insights and guidance.",
             },
             {
               title: "Simulations",
               route: "/services/simulation",
-              description: "Simulations",
+              description: "Experience virtual reality with our cutting-edge simulations. Our immersive technology allows you to explore, learn and engage like never before. Discover our simulations today.",
             },
             {
               title: "Learning And Edutainment",
               route: "/services/learning-and-edutainment",
-              description: "Learning And Edutainment",
+              description: "Discover the perfect blend of learning and entertainment with our innovative approach. Experience engaging and educational content like never before.",
             },
             {
               title: "AR, VR, WebXR Development",
               route: "/services/ar-vr-webxr-development",
-              description: "AR, VR, WebXR Development",
+              description: "Looking to develop AR, VR, or WebXR applications? Our team can help! Get top-quality development services for immersive technologies today. Contact us to learn more.",
             },
             {
               title: "Gamification & Serious Games",
               route: "/services/gamification-serious-games",
-              description: "Gamification & Serious Games",
+              description: "Discover the power of Gamification & Serious Games in engaging and motivating users. Learn how to implement these techniques for business success",
             },
           ],
         },
 
         {
           title: "Technology Services",
-          description: "Technology Services",
+          description: "Looking for reliable technology services? Our team offers expert solutions for all your tech needs. Contact us today for a free consultation!",
           route: "#",
           children: [
             {
               title: "Unity3D Game Development",
               route: "/services/unity-game-development",
-              description: "Unity3D Game Development",
+              description: "Create engaging and immersive games with Unity3D game development. Learn from industry experts and unleash your creativity to build your own games. Start today!",
             },
             {
               title: "Unreal Game Development",
               route: "/services/unreal-game-development",
-              description: "Unreal Game Development",
+              description: "Looking to develop a game using Unreal Engine? Our comprehensive guide to Unreal Game Development has everything you need to get started. Learn more here.",
             },
             {
               title: "HTML5/WebGL Game Development",
               route: "/services/html5-web-gl-game-development",
-              description: "Unreal Game Development",
+              description: "Looking to develop an engaging game using HTML5 and WebGL technology? Explore the possibilities with our expert game development services. Contact us now.",
             },
             {
               title: "Flutter Developments",
               route: "/services/flutter-development",
-              description: "Unreal Game Development",
+              description: "Looking for the latest updates on Flutter development? Stay ahead of the curve with our expert insights and analysis on Flutter developments.",
             },
           ],
         },
 
         {
           title: "Blockchain Services",
-          description: "Unreal Game Development",
+          description: "Looking for reliable blockchain services? Explore our offerings and discover how we can help your business leverage the power of blockchain technology. Contact us today",
           route: "#",
           children: [
             {
               title: "Blockchain Game Development",
               route: "/services/blockchain-game-development",
-              description: "Unreal Game Development",
+              description: "Create immersive and secure gaming experiences with blockchain technology. Discover the benefits of blockchain game development for your next project. Learn more now.",
             },
             {
               title: "dApps Game Development",
               route: "/services/dapps-game-development",
-              description: "Unreal Game Development",
+              description: "Looking to create a decentralized gaming experience? Explore dApps game development with our expert team. Contact us today to bring your ideas to life.",
             },
           ],
         },
 
         {
           title: "Resource Augmentation",
-          description: "Unreal Game Development",
+          description: "Resource augmentation can help businesses expand their capabilities by increasing their resources. Learn how to effectively implement resource augmentation strategies for success.",
           route: "#",
           children: [
             {
               title: "Game Designer",
               route: "/services/game-design",
-              description: "Unreal Game Development",
+              description: "Craft immersive game experiences as a professional game designer. Create engaging gameplay mechanics and captivating storylines that keep players hooked. Start your journey today.",
             },
             {
               title: "2D Artist",
               route: "/services/artists-2d",
-              description: "Unreal Game Development",
+              description: "Find the best 2D artists for your project. Browse a diverse range of skilled 2D artists and hire the perfect one for your design needs. Contact us today!",
             },
             {
               title: "3D Artist",
               route: "/services/artists-3d",
-              description: "Unreal Game Development",
+              description: "Looking for a skilled 3D artist? Look no further! Our team of experts can bring your visions to life with stunning 3D graphics and animations. Contact us today to see what we can create for you.",
             },
           ],
         },
@@ -189,32 +189,32 @@ const HeaderTwo = () => {
         {
           title: "Snack & Ladder Game",
           route: "/solution/snakes-and-ladder-game-development",
-          description: "Unreal Game Development",
+          description: "Climb up the Snack & Ladder Game! Enjoy the ultimate adventure with this classic board game. Roll the dice and climb ladders, but watch out for those pesky snakes!",
         },
         {
           title: "Ludo Game",
           route: "/solution/ludo-game-development",
-          description: "Unreal Game Development",
+          description: "Looking for a fun and exciting board game to play with family and friends? Look no further than Ludo Game! Enjoy hours of entertainment with this classic game of strategy and luck. Download now and get rolling!",
         },
         {
           title: "Tic Tac Toe Game",
           route: "/solution/tic-tac-toe-game-development",
-          description: "Unreal Game Development",
+          description: "Play the classic Tic Tac Toe game online for free! Test your strategy skills against the computer or a friend. Enjoy hours of fun with this simple yet addictive game.",
         },
         {
           title: "Hyper Casual Game",
           route: "/solution/hyper-casual-game-development",
-          description: "Unreal Game Development",
+          description: "Looking for a quick and addictive gaming experience? Check out our hyper casual games! These simple yet challenging games are perfect for a quick break or to pass the time. Try them now!",
         },
         {
           title: "Bubble Shooter Game",
           route: "/solution/bubble-shooter-game-development",
-          description: "Unreal Game Development",
+          description: "Enjoy endless fun with Bubble Shooter game! Aim, match and pop colorful bubbles to win levels and beat your high score. Play now for free and indulge in this addictive puzzle game.",
         },
         {
           title: "UNO Game ",
           route: "/solution/uno-game-development",
-          description: "Unreal Game Development",
+          description: "Get ready to play UNO, the classic card game loved by millions! Enjoy hours of fun with family and friends. Buy now and start playing today.",
         },
         {
           title: "Carrom Game",
