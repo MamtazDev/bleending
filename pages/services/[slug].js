@@ -11,25 +11,34 @@ import faqs from "../../utils/faqs-service";
 import ServiceDescription from "@/components/Services/ServiceDescription";
 import Meta from "@/utils/Meta";
 
-const ServicesItems = () => {
-  const router = useRouter();
-  const { slug } = router.query;
+export default function ServicesItems ({content}){
+  
+    return (
+      <>
+        {/* <Meta title={content?.title + " Development Company"}  /> */}
+        <Meta title={`${content?.title} Development Company`}  description={content?.description}/>
+        <ServiceHero title={content?.title} />
+        <ServiceDescription contents={content?.content} />
+        <ServiceWhyUs title={content?.title} />
+        <ServiceLatestGames />
+        <Brands />
+        <ContactForm />
+        <FAQ questions={faqs(content?.title)} />
+      </>
+    );
 
-  const content = services[slug];
-console.log(content,"hhhhhh");
-  return (
-    <>
-      {/* <Meta title={content?.title + " Development Company"}  /> */}
-      <Meta title={`${content?.title} Development Company`}  />
-      <ServiceHero title={content?.title} />
-      <ServiceDescription contents={content?.content} />
-      <ServiceWhyUs title={content?.title} />
-      <ServiceLatestGames />
-      <Brands />
-      <ContactForm />
-      <FAQ questions={faqs(content?.title)} />
-    </>
-  );
 };
 
-export default ServicesItems;
+// export default ServicesItems;
+
+export const getServerSideProps = async({params})=>{
+const {slug}= params;
+const content = services[slug];
+
+return {
+  props:{
+    content
+  }
+}
+
+}
