@@ -18,7 +18,7 @@ const about = () => {
       <Meta
         title={"About Us - Bleeding Edge"}
         description={
-          "Welcome to Bleeding Edge! Our company is at the forefront of innovation, constantly pushing the boundaries of what's possible in our industry. Learn more about our cutting-edge technology and expert team on our page. Discover how we're staying ahead of the curve and driving progress forward."
+          "Discover who we are and what sets us apart at Bleeding Edge. Our innovative approach and cutting-edge solutions are sure to exceed your expectations. Learn more now."
         }
       />
       <AboutHero />
