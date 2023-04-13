@@ -12,7 +12,12 @@ import React from "react";
 const CareerPage = () => {
   return (
     <>
-      <Meta title={"Career - Bleeding Edge"} />
+      <Meta
+        title={"Career - Bleeding Edge"}
+        description={
+          "Discover the cutting edge of career development with our Bleeding Edge resources. Stay ahead of the curve and advance your career like never before."
+        }
+      />
       <CareerHero />
       <CareerFewThings />
       <CareerFindPositions />

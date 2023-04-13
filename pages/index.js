@@ -21,9 +21,11 @@ export default function Home() {
   return (
     <>
       <Meta
-        title={"Bleeding Edge"}
-        description={
+        title={
           "Quality iOS & Android Games Development Company in Dubai , UAE & Lahore , Pakistan"
+        }
+        description={
+          "Looking for a reliable game development company for iOS and Android platforms in Dubai, UAE or Lahore, Pakistan? Look no further than our top-quality game development services! We specialize in creating engaging and entertaining mobile games that will keep your audience hooked. Contact us today to learn more about our game development services and how we can help bring your vision to life"
         }
       />
       <>

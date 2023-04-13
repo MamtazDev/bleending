@@ -16,7 +16,12 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <Meta title={"Solution - Bleeding Edge"} />
+      <Meta
+        title={"Solution - Bleeding Edge"}
+        description={
+          "Don't settle for mediocre solutions. Choose our bleeding edge technology for game-changing results and a competitive edge"
+        }
+      />
       <SolutionHero />
       <SolutionAnim />
       <SolutionSteps />
